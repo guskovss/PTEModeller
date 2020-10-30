@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jbtnOk" min="-2" pref="74" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbtnCancel" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlbCoord2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbCoord1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbType" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jcbType" max="32767" attributes="1"/>
+                          <Component id="jftfCoord2" alignment="1" max="32767" attributes="1"/>
+                          <Component id="jftfCoord1" alignment="1" pref="130" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Component id="jlbText" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfName" alignment="0" pref="282" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jcbType" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jftfCoord1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbCoord1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jftfCoord2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbCoord2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jlbText" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jtfName" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbtnOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtnCancel" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jbtnOk">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="ru.encotes.armidexpress.DlgDiameterEdit" id="acOk" methodName="acOk"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jbtnOk" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtnCancel">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="ru.encotes.armidexpress.DlgDiameterEdit" id="acCancel" methodName="acCancel"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jbtnCancel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftfCoord1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jftfCoord1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jftfCoord2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jftfCoord2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jcbType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="&#x422;&#x43e;&#x447;&#x43a;&#x430;"/>
+            <StringItem index="1" value="&#x418;&#x43d;&#x442;&#x435;&#x440;&#x432;&#x430;&#x43b;"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jcbType" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfName">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jtfName.text"/>
+        <Property name="name" type="java.lang.String" value="jtfName" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbType">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jlbType.text"/>
+        <Property name="name" type="java.lang.String" value="jlbType" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbCoord1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jlbCoord1.text"/>
+        <Property name="name" type="java.lang.String" value="jlbCoord1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbCoord2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jlbCoord2.text"/>
+        <Property name="name" type="java.lang.String" value="jlbCoord2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbText">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jlbText.text"/>
+        <Property name="name" type="java.lang.String" value="jlbText" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
